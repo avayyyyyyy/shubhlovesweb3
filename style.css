@@ -637,9 +637,11 @@ h1 {
     color: #333333;
     font-size: 36px;
 }
-.port{
-    height: 180vh;
+
+.port {
+    height: auto;
 }
+
 .port-head {
     text-align: center;
     margin-bottom: 20px;
@@ -734,6 +736,17 @@ h1 {
     margin-bottom: 50px;
 }
 
+@media (max-width:1330px) {
+    .port {
+        height: auto;
+    }
+
+    .port-wrapper {
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: auto;
+    }
+}
 
 @media (max-width:860px) {
     * {
@@ -863,7 +876,7 @@ h1 {
 
     .skills__content {
         box-shadow: none;
-        border: 0.9px solid  #333333;
+        border: 0.9px solid #333333;
         margin-top: 0;
     }
 
@@ -918,6 +931,10 @@ h1 {
         display: flex;
         height: auto;
         width: auto;
+    }
+
+    .port {
+        height: auto;
     }
 
     .port-wrapper {
