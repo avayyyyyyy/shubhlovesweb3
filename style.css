@@ -866,6 +866,7 @@ h1 {
 
     .ac-card-wrap {
         flex-wrap: wrap;
+        padding: 10px;
         justify-content: center;
         /* display: flex; */
         margin: auto;
