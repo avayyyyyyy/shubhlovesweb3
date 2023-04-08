@@ -747,6 +747,11 @@ h1 {
         display: none;
     }
 
+    .picture {
+        height: 40vh;
+        width: 40vh;
+    }
+
     .hero {
         margin-top: 20px;
         flex-wrap: wrap-reverse;
@@ -860,7 +865,7 @@ h1 {
     .ac-card {
         border: 1px solid #333333;
         border-radius: 10px;
-        margin:0  auto;
+        margin: 0 auto;
         box-shadow: none;
     }
 
@@ -871,19 +876,24 @@ h1 {
         /* display: flex; */
         margin: auto;
     }
-.popup.show{
-    width: 250px;
-    z-index: 4;
-}
-.popup.show:active{
-    scroll-behavior: hidden;
-}
-.popup.show p{
-    font-size: 11px;
-}
-.popup.show b{
-    font-size: 15px;
-}
+
+    .popup.show {
+        width: 250px;
+        z-index: 4;
+    }
+
+    .popup.show:active {
+        scroll-behavior: hidden;
+    }
+
+    .popup.show p {
+        font-size: 11px;
+    }
+
+    .popup.show b {
+        font-size: 15px;
+    }
+
     #port-hr {
         margin-top: 0;
         margin-bottom: 0;
@@ -923,7 +933,12 @@ h1 {
         display: none;
         margin: 0px 0px;
     }
-    .copy{
+
+    .copy {
         font-size: 11px;
+    }
+
+    .circle {
+        overflow: hidden;
     }
 }
