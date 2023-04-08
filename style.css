@@ -565,6 +565,7 @@ h1 {
 
 .education {
     margin-top: 70px;
+    margin-inline: 50px;
 }
 
 .education h2 {
@@ -837,7 +838,9 @@ h1 {
     .abt-cont p {
         font-size: 8px;
     }
-
+.education{
+    margin-inline: 15px;
+}
     .abt-cont-wrap {
         margin: auto;
         justify-content: center;
