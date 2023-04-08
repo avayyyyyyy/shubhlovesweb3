@@ -442,8 +442,7 @@ h1 {
 }
 
 .popup-button:active {
-    transform: translateY(2px);
-
+    transform: translatey(2px);
 }
 
 .popup-button:hover {
@@ -463,13 +462,10 @@ h1 {
     display: none;
 }
 
-.popup:active {
-    transition: 1s ease-in-out;
-}
-
 .popup.show {
     display: block;
 }
+
 
 .close-button {
     background-color: #333333;
