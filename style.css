@@ -871,7 +871,19 @@ h1 {
         /* display: flex; */
         margin: auto;
     }
-
+.popup.show{
+    width: 250px;
+    z-index: 4;
+}
+.popup.show:active{
+    scroll-behavior: hidden;
+}
+.popup.show p{
+    font-size: 11px;
+}
+.popup.show b{
+    font-size: 15px;
+}
     #port-hr {
         margin-top: 0;
         margin-bottom: 0;
