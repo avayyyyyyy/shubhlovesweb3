@@ -215,7 +215,7 @@ h1 {
 }
 
 .abt-photo {
-    width: 270px;
+    width: 250px;
     margin-top: 40px;
     backdrop-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -223,8 +223,8 @@ h1 {
 }
 
 .abt-photo:hover {
-    transform: scale(1.01);
-    box-shadow: 5px 5px 50px #333;
+    transform: scale(1.001);
+    /* box-shadow: 5px 5px 50px #333; */
     transition: 0.2s ease-in-out;
     filter: grayscale(0);
 }
