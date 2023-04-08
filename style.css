@@ -860,11 +860,14 @@ h1 {
     .ac-card {
         border: 1px solid #333333;
         border-radius: 10px;
+        margin:0  auto;
         box-shadow: none;
     }
 
     .ac-card-wrap {
         flex-wrap: wrap;
+        justify-content: center;
+        /* display: flex; */
         margin: auto;
     }
 
