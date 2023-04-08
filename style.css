@@ -861,6 +861,7 @@ h1 {
 
     .skills__content {
         box-shadow: none;
+        border: 0.9px solid  #333333;
         margin-top: 0;
     }
 
