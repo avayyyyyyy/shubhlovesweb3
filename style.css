@@ -842,11 +842,11 @@ h1 {
     margin-inline: 15px;
 }
     .abt-cont-wrap {
-        margin: auto;
+        /* margin: auto; */
         justify-content: center;
         max-width: 400px;
         height: 110px;
-        margin: 0;
+        margin: auto;
         padding: 0;
     }
 
