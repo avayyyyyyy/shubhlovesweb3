@@ -838,9 +838,11 @@ h1 {
     .abt-cont p {
         font-size: 8px;
     }
-.education{
-    margin-inline: 15px;
-}
+
+    .education {
+        margin-inline: 15px;
+    }
+
     .abt-cont-wrap {
         /* margin: auto; */
         justify-content: center;
@@ -881,6 +883,7 @@ h1 {
         box-shadow: none;
         border: 0.9px solid #333333;
         margin-top: 0;
+        width: 270px;
     }
 
     .skill-head {
