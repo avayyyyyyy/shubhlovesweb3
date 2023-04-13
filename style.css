@@ -308,6 +308,7 @@ h1 {
     width: 70%;
     margin: auto;
     display: flex;
+    gap: 20px;
     justify-content: space-around;
 }
 
@@ -495,7 +496,7 @@ h1 {
     width: 270px;
     height: 290px;
     display: flex;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     flex-direction: column;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     justify-content: center;
@@ -522,17 +523,15 @@ h1 {
     color: #757575;
 }
 
-.ac-body {
-    width: 70%;
-    margin: auto;
-    display: flex;
-}
-
 .ac-card-wrap {
-    margin: auto;
-    margin-bottom: 100px;
+    width: auto;
+    margin: 5vh 5vh;
+    /* margin-bottom: 100px; */
+    margin-inline: auto;
     gap: 40px;
+    /* justify-content: space-between; */
     display: flex;
+    justify-content: center;
     flex-direction: row;
 }
 
@@ -614,26 +613,6 @@ h1 {
     margin: 0;
 }
 
-/* @media (max-width: 767px) {
-    .education h2 {
-        font-size: 24px;
-    }
-
-    .circle {
-        width: 30px;
-        height: 30px;
-        margin-right: 10px;
-    }
-
-    .content h3 {
-        font-size: 20px;
-    }
-
-    .content p {
-        font-size: 16px;
-    }
-} */
-
 #Qualification {
     color: #333333;
     font-size: 36px;
@@ -692,7 +671,8 @@ h1 {
 }
 
 .port-git {
-    margin-top: 50px;
+    text-align: center;
+    margin-block: 50px;
 }
 
 .port-git a {
@@ -745,11 +725,13 @@ h1 {
     .port-wrapper {
         flex-wrap: wrap;
         flex-direction: row;
+        width: auto;
+        height: auto;
         margin: auto;
     }
 }
 
-@media (max-width:860px) {
+@media (max-width:930px) {
     * {
         margin: 0;
         padding: 0;
@@ -844,10 +826,10 @@ h1 {
     }
 
     .abt-cont-wrap {
-        margin: auto;
         justify-content: center;
         max-width: 400px;
         height: 110px;
+        margin: auto;
         padding: 0;
     }
 
@@ -904,7 +886,8 @@ h1 {
         flex-wrap: wrap;
         padding: 10px;
         justify-content: center;
-        /* display: flex; */
+        display: flex;
+        gap: 40px;
         margin: auto;
     }
 
