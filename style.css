@@ -272,6 +272,7 @@ h1 {
 
 .abt-written {
     display: flex;
+    width: auto;
     flex-direction: column;
 }
 
@@ -743,8 +744,8 @@ h1 {
     }
 
     .picture {
-        height: 34vh;
-        width: 34vh;
+        height: auto;
+        width: auto;
     }
 
     .hero {
@@ -767,8 +768,15 @@ h1 {
 
     .first-line {
         text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin: auto;
         margin-top: 20px;
+    }
+
+    .first-line h1 {
+        font-size: 1.5rem;
     }
 
     .about-hr {
@@ -803,18 +811,22 @@ h1 {
     }
 
     .abt-cont {
-        height: 100px;
-        width: 210px;
-        font-size: 11px;
+        height: 15vh;
+        width: auto;
+        /* font-size: 11px; */
+        justify-content: center;
+        /* margin: 20px; */
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-inline: 1px;
+        padding: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
         gap: 2px;
     }
 
     .abt-cont h5 {
-        font-size: 10px;
+        font-size: 5px;
     }
 
     .abt-cont p {
@@ -826,11 +838,12 @@ h1 {
     }
 
     .abt-cont-wrap {
+        align-items: center;
         justify-content: center;
-        max-width: 400px;
-        height: 110px;
-        margin: auto;
-        padding: 0;
+        /* max-width: 400px; */
+        /* height: 110px; */
+        margin: 0;
+        /* padding: 10px; */
     }
 
     .about__description {
@@ -941,9 +954,9 @@ h1 {
         width: auto;
     }
 
-    .port-git {
+    .port-git h5 {
         text-align: center;
-        margin: auto;
+        margin-bottom: 20px;
         padding: 10px;
     }
 
