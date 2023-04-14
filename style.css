@@ -101,6 +101,7 @@ a {
 .home_img {
     width: 300px;
     margin-bottom: 10px;
+    overflow: hidden;
     border-radius: 90px;
     border: none;
 }
@@ -811,7 +812,7 @@ h1 {
     }
 
     .abt-cont {
-        height: 15vh;
+        height: 10vh;
         width: auto;
         /* font-size: 11px; */
         justify-content: center;
