@@ -735,6 +735,18 @@ h1 {
         height: auto;
     }
 
+    .fir-project{
+        display: flex;
+        gap: 20px;
+        /* flex-wrap: wrap; */
+    }
+    
+    .sec-project{
+        display: flex;
+        flex-wrap: wrap;
+        /* gap: 20px; */
+    }
+
     .port-wrapper {
         flex-wrap: wrap;
         flex-direction: row;
