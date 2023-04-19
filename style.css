@@ -652,16 +652,16 @@ h1 {
 }
 
 .port-wrapper {
-    width: 70%;
+    width: 90%;
     height: auto;
     padding: 20px;
     margin: 0 auto;
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     justify-content: center;
-    gap: 40px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
