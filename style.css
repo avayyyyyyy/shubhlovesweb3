@@ -23,7 +23,7 @@
     justify-content: space-between;
     background-color: #fff;
     /* if you want blur nav bar comment out uper bg color */
-    backdrop-filter: blur(10px);
+/*     backdrop-filter: blur(10px); */
 }
 
 .nav-links {
