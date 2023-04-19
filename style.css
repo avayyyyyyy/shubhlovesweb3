@@ -643,7 +643,7 @@ h1 {
 
 .port-wrapper {
     width: 70%;
-    height: 440px;
+    height: auto;
     padding: 20px;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -664,7 +664,7 @@ h1 {
     padding: 10px;
     margin: 0 auto;
     margin: auto;
-    border: 1px solid #8d8c8c;
+    /* border: 1px solid #8d8c8c; */
     border-radius: 10px;
     width: 270px;
     height: auto;
@@ -729,7 +729,7 @@ h1 {
     .port-wrapper {
         flex-wrap: wrap;
         flex-direction: row;
-        width: auto;
+        /* width: auto; */
         height: auto;
         margin: auto;
     }
@@ -943,9 +943,9 @@ h1 {
 
     .port-wrapper {
         flex-wrap: wrap;
-        height: 1395px;
+        height: auto;
         margin: auto;
-        gap: 0;
+        gap: 30px;
     }
 
     .port-cards {
