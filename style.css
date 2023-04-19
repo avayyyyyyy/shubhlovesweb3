@@ -23,7 +23,7 @@
     justify-content: space-between;
     background-color: #fff;
     /* if you want blur nav bar comment out uper bg color */
-/*     backdrop-filter: blur(10px); */
+    /* backdrop-filter: blur(10px); */
 }
 
 .nav-links {
@@ -641,6 +641,14 @@ h1 {
     font-size: 16px;
 }
 
+.fir-project{
+    display: flex;
+}
+
+.sec-project{
+    display: flex;
+}
+
 .port-wrapper {
     width: 70%;
     height: auto;
@@ -648,6 +656,7 @@ h1 {
     margin: 0 auto;
     margin-bottom: 50px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     justify-content: center;
     gap: 40px;
