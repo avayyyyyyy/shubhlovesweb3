@@ -643,10 +643,12 @@ h1 {
 
 .fir-project{
     display: flex;
+    flex-direction: row;
 }
 
 .sec-project{
     display: flex;
+    flex-direction: row;
 }
 
 .port-wrapper {
