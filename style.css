@@ -652,7 +652,7 @@ h1 {
 }
 
 .port-wrapper {
-    width: 90%;
+    width: auto;
     height: auto;
     padding: 20px;
     margin: 0 auto;
