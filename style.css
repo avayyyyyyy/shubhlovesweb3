@@ -738,13 +738,17 @@ h1 {
     .fir-project{
         display: flex;
         gap: 20px;
+        width: auto;
+        height: auto;
         /* flex-wrap: wrap; */
     }
     
     .sec-project{
         display: flex;
-        flex-wrap: wrap;
-        /* gap: 20px; */
+        /* flex-wrap: wrap; */
+        gap: 20px;
+        width: auto;
+        height: auto;
     }
 
     .port-wrapper {
