@@ -7,6 +7,7 @@ popupButtons.forEach((popupButton) => {
     const popupId = popupButton.getAttribute("data-popup-id");
     const popup = document.getElementById(popupId);
     popup.classList.add("show");
+    document.body.style.overflowY = "hidden";
   });
 });
 
@@ -15,5 +16,6 @@ closeButton.forEach((close) => {
     popups.forEach((popup) => {
       popup.classList.remove("show");
     });
+    document.body.style.overflowY = "auto"; // Restore scrolling when popup is closed
   });
 });
