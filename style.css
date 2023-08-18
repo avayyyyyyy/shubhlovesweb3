@@ -317,11 +317,12 @@ h1 {
 }
 
 .skills {
-    width: 70%;
+    width: 100%;
     margin: auto;
     display: flex;
     gap: 20px;
     justify-content: space-around;
+    padding-block: 20px;
 }
 
 .skill-head {
