@@ -673,7 +673,6 @@ h1 {
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
@@ -682,14 +681,11 @@ h1 {
 
 .port-cards {
     width: 32%;
-    /* border-radius: 10px; */
-    border: 1px solid #b4b4b4;
     box-shadow: 5px 5px 50px #8a8a8a;
     height: 80%;
     padding: 10px;
     margin: 0 auto;
     margin: auto;
-    /* border: 1px solid #8d8c8c; */
     border-radius: 10px;
     width: 270px;
     height: auto;
