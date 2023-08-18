@@ -1013,6 +1013,7 @@ h1 {
         /* padding: 0; */
         margin: auto;
         box-shadow: none;
+        border: 1px solid #6b6b6b;
         height: fit-content;
         width: auto;
     }
